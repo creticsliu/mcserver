@@ -13,4 +13,10 @@ wget https://github.com/creticsliu/mcserver/raw/master/native/restart.sh
 wget https://github.com/creticsliu/mcserver/raw/master/native/start.sh
 mkdir plugins
 cd plugins
-wget https://github.com/creticsliu/mcserver/raw/master/server/LaggRemover-2.0.6.jar 
+wget https://github.com/creticsliu/mcserver/raw/master/server/LaggRemover-2.0.6.jar
+cd /usr/mcserver
+echo Complete!
+echo You can follow the instruction on my GitHub page:
+echo https://github.com/creticsliu/One-Key-Minecraft-Server
+
+

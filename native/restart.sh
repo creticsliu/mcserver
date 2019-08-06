@@ -32,6 +32,6 @@ screen -dr mcserver -X stuff "say [restart.sh]The server will restart in 2 secon
 sleep 1
 screen -dr mcserver -X stuff "say [restart.sh]The server will restart in 1 seconds!\n"
 sleep 1
-screen -dr mc -X stuff "kick @a [restart.sh]The server is currently restarting. Please wait for approximately 4 minutes before rejoining.\n"
-screen -dr mc -X stuff "stop\n"
+screen -dr mcserver -X stuff "kick @a [restart.sh]The server is currently restarting. Please wait for approximately 4 minutes before rejoining.\n"
+screen -dr mcserver -X stuff "stop\n"
 done
