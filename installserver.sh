@@ -15,8 +15,7 @@ mkdir plugins
 cd plugins
 wget https://github.com/creticsliu/mcserver/raw/master/server/LaggRemover-2.0.6.jar
 cd /usr/mcserver
+java -jar /usr/mcserver/server.jar noggin
 echo Complete!
 echo You can follow the instruction on my GitHub page:
 echo https://github.com/creticsliu/One-Key-Minecraft-Server
-
-
