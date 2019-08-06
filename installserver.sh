@@ -1,6 +1,5 @@
 mkdir /usr/mcserver
 yum -y install java
-yum -y install wget
 yum -y install screen
 cd /usr/mcserver
 wget https://github.com/creticsliu/mcserver/raw/master/server/server-icon.png
