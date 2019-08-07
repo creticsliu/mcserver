@@ -15,6 +15,6 @@ mkdir plugins
 cd plugins
 wget https://media.forgecdn.net/files/2744/510/LaggRemover-2.0.6.jar
 cd /usr/mcserver
-java -jar /usr/mcserver/server.jar noggin
+java -jar -Xmx1G /usr/mcserver/server.jar nogui
 echo Complete!
 echo You can learn how to use "screen" in order to keep the server running in background.
